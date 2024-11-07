@@ -7,3 +7,4 @@ dist/
 *note
 *backup*
 venv/
+db.sqlite3
