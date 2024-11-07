@@ -103,19 +103,29 @@ def appointments(
 @api.post("/appointments", response={201: AppointmentSchema})
 def create_appointment(request, appointment: AppointmentSchema):
     try:
-        # Fetch the Stylist and Customer based on first and last names
+        # Fetch the Stylist based on first and last names
         stylist = Stylist.objects.get(
             first_name=appointment.hair_dresser.first_name,
             last_name=appointment.hair_dresser.last_name
         )
+    except Stylist.DoesNotExist:
+        return {"error": "Stylist not found"}, 404
+
+    # Try to fetch the Customer based on first and last names
+    try:
         customer = Customer.objects.get(
             first_name=appointment.customer.first_name,
             last_name=appointment.customer.last_name
         )
-    except Stylist.DoesNotExist:
-        return {"error": "Stylist not found"}, 404
     except Customer.DoesNotExist:
-        return {"error": "Customer not found"}, 404
+        # If the customer does not exist, create a new one
+        customer = Customer.objects.create(
+            first_name=appointment.customer.first_name,
+            last_name=appointment.customer.last_name,
+            phone_number=appointment.customer.phone_number,
+            email=appointment.customer.email
+            # You can add additional fields if available in the schema (like phone number or email)
+        )
 
     # Create the appointment with the fetched stylist and customer
     new_appointment = Appointment.objects.create(

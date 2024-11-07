@@ -30,6 +30,8 @@ class StylistName(Schema):
 class CustomerName(Schema):
     first_name: str
     last_name: str
+    phone_number: str
+    email: str
 
 class AppointmentSchema(Schema):
     hair_dresser: StylistName
