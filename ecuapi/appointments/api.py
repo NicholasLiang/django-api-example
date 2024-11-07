@@ -128,8 +128,6 @@ def create_appointment(request, appointment: AppointmentSchema):
         additional_request=appointment.additional_request,
         receive_sms_reminder=appointment.receive_sms_reminder,
         receive_email_reminder=appointment.receive_email_reminder,
-        status=appointment.status,
-        payment_status=appointment.payment_status
     )
 
     return new_appointment

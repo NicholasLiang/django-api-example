@@ -41,8 +41,6 @@ class AppointmentSchema(Schema):
     additional_request: str = None
     receive_sms_reminder: bool = False
     receive_email_reminder: bool = False
-    status: str = "booked"
-    payment_status: str = "pending"
 
 
 class NotFoundSchema(Schema):
