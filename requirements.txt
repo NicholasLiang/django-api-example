@@ -2,3 +2,4 @@ Django>=3.2
 django-ninja
 gunicorn
 dj-database-url
+django-cors-headers
