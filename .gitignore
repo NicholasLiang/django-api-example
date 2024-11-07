@@ -8,3 +8,4 @@ dist/
 *backup*
 venv/
 *.sqlite3
+ecuapi/db.sqlite3
