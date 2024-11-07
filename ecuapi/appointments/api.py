@@ -121,7 +121,7 @@ def create_appointment(request, appointment: AppointmentSchema):
     new_appointment = Appointment.objects.create(
         hair_dresser=stylist,
         customer=customer,
-        date=appointment.date,
+        start_date_time=appointment.start_date_time,
         duration_in_minutes=appointment.duration_in_minutes,
         service_type=appointment.service_type,
         stylist_preference=appointment.stylist_preference,
