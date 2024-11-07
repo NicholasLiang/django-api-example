@@ -1,0 +1,72 @@
+[
+    {
+        "first_name": "Sophia",
+        "last_name": "Martinez",
+        "phone_number": "555-123-4567",
+        "email": "sophia.martinez@example.com",
+        "position": "Master Stylist",
+        "specialization": "Color Specialist",
+        "years_of_experience": 12,
+        "description": "Sophia has over a decade of experience with advanced coloring techniques, including balayage, ombre, and corrective color."
+    },
+    {
+        "first_name": "Liam",
+        "last_name": "Johnson",
+        "phone_number": "555-234-5678",
+        "email": "liam.johnson@example.com",
+        "position": "Senior Stylist",
+        "specialization": "Men's Cuts",
+        "years_of_experience": 8,
+        "description": "Liam specializes in modern and classic men's haircuts, ensuring every client gets a tailored experience."
+    },
+    {
+        "first_name": "Ava",
+        "last_name": "Nguyen",
+        "phone_number": "555-345-6789",
+        "email": "ava.nguyen@example.com",
+        "position": "Junior Stylist",
+        "specialization": "Blowouts & Styling",
+        "years_of_experience": 2,
+        "description": "Ava has a natural talent for styling and creating beautiful blowouts, perfect for special occasions or everyday looks."
+    },
+    {
+        "first_name": "James",
+        "last_name": "Lee",
+        "phone_number": "555-456-7890",
+        "email": "james.lee@example.com",
+        "position": "Color Specialist",
+        "specialization": "Balayage & Highlights",
+        "years_of_experience": 5,
+        "description": "James is known for his meticulous balayage and highlight techniques, creating stunning, natural looks for his clients."
+    },
+    {
+        "first_name": "Emily",
+        "last_name": "Garcia",
+        "phone_number": "555-567-8901",
+        "email": "emily.garcia@example.com",
+        "position": "Salon Manager",
+        "specialization": "Customer Relations & Management",
+        "years_of_experience": 15,
+        "description": "Emily ensures that every client has a wonderful salon experience, from booking appointments to managing the salon team."
+    },
+    {
+        "first_name": "Noah",
+        "last_name": "Brown",
+        "phone_number": "555-678-9012",
+        "email": "noah.brown@example.com",
+        "position": "Apprentice",
+        "specialization": "Assisting & Learning Advanced Techniques",
+        "years_of_experience": 1,
+        "description": "Noah is eager to learn from senior stylists and assist with various tasks around the salon as he develops his skills."
+    },
+    {
+        "first_name": "Mia",
+        "last_name": "Lopez",
+        "phone_number": "555-789-0123",
+        "email": "mia.lopez@example.com",
+        "position": "Senior Stylist",
+        "specialization": "Women's Cuts",
+        "years_of_experience": 10,
+        "description": "Mia specializes in women's haircuts, including layered and textured styles, and is known for her attention to detail."
+    }
+]

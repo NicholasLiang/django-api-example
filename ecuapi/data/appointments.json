@@ -1,0 +1,402 @@
+[
+    {
+        "hair_dresser": {
+            "first_name": "Sophia",
+            "last_name": "Martinez"
+        },
+        "customer": {
+            "first_name": "John",
+            "last_name": "Doe"
+        },
+        "start_date_time": "2023-11-01T09:00:00-07:00",
+        "duration_in_minutes": 60,
+        "service_type": "Haircut",
+        "stylist_preference": "",
+        "additional_request": "",
+        "receive_sms_reminder": true,
+        "receive_email_reminder": false,
+        "status": "booked",
+        "payment_status": "pending",
+        "created_at": "2023-10-01T10:00:00-07:00"
+    },
+    {
+        "hair_dresser": {
+            "first_name": "Liam",
+            "last_name": "Johnson"
+        },
+        "customer": {
+            "first_name": "Jane",
+            "last_name": "Smith"
+        },
+        "start_date_time": "2023-11-02T10:00:00-07:00",
+        "duration_in_minutes": 45,
+        "service_type": "Hair Coloring",
+        "stylist_preference": "",
+        "additional_request": "Use organic products",
+        "receive_sms_reminder": false,
+        "receive_email_reminder": true,
+        "status": "booked",
+        "payment_status": "pending",
+        "created_at": "2023-10-02T11:00:00-07:00"
+    },
+    {
+        "hair_dresser": {
+            "first_name": "Ava",
+            "last_name": "Nguyen"
+        },
+        "customer": {
+            "first_name": "Michael",
+            "last_name": "Johnson"
+        },
+        "start_date_time": "2023-11-03T11:00:00-07:00",
+        "duration_in_minutes": 30,
+        "service_type": "Shampoo",
+        "stylist_preference": "",
+        "additional_request": "",
+        "receive_sms_reminder": true,
+        "receive_email_reminder": true,
+        "status": "booked",
+        "payment_status": "pending",
+        "created_at": "2023-10-03T12:00:00-07:00"
+    },
+    {
+        "hair_dresser": {
+            "first_name": "James",
+            "last_name": "Lee"
+        },
+        "customer": {
+            "first_name": "Emily",
+            "last_name": "Davis"
+        },
+        "start_date_time": "2023-11-04T12:00:00-07:00",
+        "duration_in_minutes": 90,
+        "service_type": "Haircut and Styling",
+        "stylist_preference": "James Lee",
+        "additional_request": "",
+        "receive_sms_reminder": false,
+        "receive_email_reminder": false,
+        "status": "booked",
+        "payment_status": "pending",
+        "created_at": "2023-10-04T13:00:00-07:00"
+    },
+    {
+        "hair_dresser": {
+            "first_name": "Emily",
+            "last_name": "Garcia"
+        },
+        "customer": {
+            "first_name": "David",
+            "last_name": "Wilson"
+        },
+        "start_date_time": "2023-11-05T13:00:00-07:00",
+        "duration_in_minutes": 60,
+        "service_type": "Haircut",
+        "stylist_preference": "",
+        "additional_request": "No trimming",
+        "receive_sms_reminder": true,
+        "receive_email_reminder": false,
+        "status": "booked",
+        "payment_status": "pending",
+        "created_at": "2023-10-05T14:00:00-07:00"
+    },
+    {
+        "hair_dresser": {
+            "first_name": "Noah",
+            "last_name": "Brown"
+        },
+        "customer": {
+            "first_name": "Sarah",
+            "last_name": "Brown"
+        },
+        "start_date_time": "2023-11-06T14:00:00-07:00",
+        "duration_in_minutes": 45,
+        "service_type": "Hair Coloring",
+        "stylist_preference": "",
+        "additional_request": "Use vegan products",
+        "receive_sms_reminder": false,
+        "receive_email_reminder": true,
+        "status": "booked",
+        "payment_status": "pending",
+        "created_at": "2023-10-06T15:00:00-07:00"
+    },
+    {
+        "hair_dresser": {
+            "first_name": "Mia",
+            "last_name": "Lopez"
+        },
+        "customer": {
+            "first_name": "James",
+            "last_name": "Taylor"
+        },
+        "start_date_time": "2023-11-07T15:00:00-07:00",
+        "duration_in_minutes": 30,
+        "service_type": "Shampoo",
+        "stylist_preference": "",
+        "additional_request": "",
+        "receive_sms_reminder": true,
+        "receive_email_reminder": true,
+        "status": "booked",
+        "payment_status": "pending",
+        "created_at": "2023-10-07T16:00:00-07:00"
+    },
+    {
+        "hair_dresser": {
+            "first_name": "Sophia",
+            "last_name": "Martinez"
+        },
+        "customer": {
+            "first_name": "Laura",
+            "last_name": "Anderson"
+        },
+        "start_date_time": "2023-11-08T16:00:00-07:00",
+        "duration_in_minutes": 90,
+        "service_type": "Haircut and Styling",
+        "stylist_preference": "Sophia Martinez",
+        "additional_request": "",
+        "receive_sms_reminder": false,
+        "receive_email_reminder": false,
+        "status": "booked",
+        "payment_status": "pending",
+        "created_at": "2023-10-08T17:00:00-07:00"
+    },
+    {
+        "hair_dresser": {
+            "first_name": "Liam",
+            "last_name": "Johnson"
+        },
+        "customer": {
+            "first_name": "Robert",
+            "last_name": "Thomas"
+        },
+        "start_date_time": "2023-11-09T17:00:00-07:00",
+        "duration_in_minutes": 60,
+        "service_type": "Haircut",
+        "stylist_preference": "",
+        "additional_request": "No trimming",
+        "receive_sms_reminder": true,
+        "receive_email_reminder": false,
+        "status": "booked",
+        "payment_status": "pending",
+        "created_at": "2023-10-09T18:00:00-07:00"
+    },
+    {
+        "hair_dresser": {
+            "first_name": "Ava",
+            "last_name": "Nguyen"
+        },
+        "customer": {
+            "first_name": "Jessica",
+            "last_name": "Martinez"
+        },
+        "start_date_time": "2023-11-10T18:00:00-07:00",
+        "duration_in_minutes": 45,
+        "service_type": "Hair Coloring",
+        "stylist_preference": "",
+        "additional_request": "Use organic products",
+        "receive_sms_reminder": false,
+        "receive_email_reminder": true,
+        "status": "booked",
+        "payment_status": "pending",
+        "created_at": "2023-10-10T19:00:00-07:00"
+    },
+    {
+        "hair_dresser": {
+            "first_name": "James",
+            "last_name": "Lee"
+        },
+        "customer": {
+            "first_name": "John",
+            "last_name": "Doe"
+        },
+        "start_date_time": "2023-11-11T09:00:00-07:00",
+        "duration_in_minutes": 30,
+        "service_type": "Shampoo",
+        "stylist_preference": "",
+        "additional_request": "",
+        "receive_sms_reminder": true,
+        "receive_email_reminder": true,
+        "status": "booked",
+        "payment_status": "pending",
+        "created_at": "2023-10-11T10:00:00-07:00"
+    },
+    {
+        "hair_dresser": {
+            "first_name": "Emily",
+            "last_name": "Garcia"
+        },
+        "customer": {
+            "first_name": "Jane",
+            "last_name": "Smith"
+        },
+        "start_date_time": "2023-11-12T10:00:00-07:00",
+        "duration_in_minutes": 90,
+        "service_type": "Haircut and Styling",
+        "stylist_preference": "Emily Garcia",
+        "additional_request": "",
+        "receive_sms_reminder": false,
+        "receive_email_reminder": false,
+        "status": "booked",
+        "payment_status": "pending",
+        "created_at": "2023-10-12T11:00:00-07:00"
+    },
+    {
+        "hair_dresser": {
+            "first_name": "Noah",
+            "last_name": "Brown"
+        },
+        "customer": {
+            "first_name": "Michael",
+            "last_name": "Johnson"
+        },
+        "start_date_time": "2023-11-13T11:00:00-07:00",
+        "duration_in_minutes": 60,
+        "service_type": "Haircut",
+        "stylist_preference": "",
+        "additional_request": "No trimming",
+        "receive_sms_reminder": true,
+        "receive_email_reminder": false,
+        "status": "booked",
+        "payment_status": "pending",
+        "created_at": "2023-10-13T12:00:00-07:00"
+    },
+    {
+        "hair_dresser": {
+            "first_name": "Mia",
+            "last_name": "Lopez"
+        },
+        "customer": {
+            "first_name": "Emily",
+            "last_name": "Davis"
+        },
+        "start_date_time": "2023-11-14T12:00:00-07:00",
+        "duration_in_minutes": 45,
+        "service_type": "Hair Coloring",
+        "stylist_preference": "",
+        "additional_request": "Use vegan products",
+        "receive_sms_reminder": false,
+        "receive_email_reminder": true,
+        "status": "booked",
+        "payment_status": "pending",
+        "created_at": "2023-10-14T13:00:00-07:00"
+    },
+    {
+        "hair_dresser": {
+            "first_name": "Sophia",
+            "last_name": "Martinez"
+        },
+        "customer": {
+            "first_name": "David",
+            "last_name": "Wilson"
+        },
+        "start_date_time": "2023-11-15T13:00:00-07:00",
+        "duration_in_minutes": 30,
+        "service_type": "Shampoo",
+        "stylist_preference": "",
+        "additional_request": "",
+        "receive_sms_reminder": true,
+        "receive_email_reminder": true,
+        "status": "booked",
+        "payment_status": "pending",
+        "created_at": "2023-10-15T14:00:00-07:00"
+    },
+    {
+        "hair_dresser": {
+            "first_name": "Liam",
+            "last_name": "Johnson"
+        },
+        "customer": {
+            "first_name": "Sarah",
+            "last_name": "Brown"
+        },
+        "start_date_time": "2023-11-16T14:00:00-07:00",
+        "duration_in_minutes": 90,
+        "service_type": "Haircut and Styling",
+        "stylist_preference": "Liam Johnson",
+        "additional_request": "",
+        "receive_sms_reminder": false,
+        "receive_email_reminder": false,
+        "status": "booked",
+        "payment_status": "pending",
+        "created_at": "2023-10-16T15:00:00-07:00"
+    },
+    {
+        "hair_dresser": {
+            "first_name": "Ava",
+            "last_name": "Nguyen"
+        },
+        "customer": {
+            "first_name": "James",
+            "last_name": "Taylor"
+        },
+        "start_date_time": "2023-11-17T15:00:00-07:00",
+        "duration_in_minutes": 60,
+        "service_type": "Haircut",
+        "stylist_preference": "",
+        "additional_request": "No trimming",
+        "receive_sms_reminder": true,
+        "receive_email_reminder": false,
+        "status": "booked",
+        "payment_status": "pending",
+        "created_at": "2023-10-17T16:00:00-07:00"
+    },
+    {
+        "hair_dresser": {
+            "first_name": "James",
+            "last_name": "Lee"
+        },
+        "customer": {
+            "first_name": "Laura",
+            "last_name": "Anderson"
+        },
+        "start_date_time": "2023-11-18T16:00:00-07:00",
+        "duration_in_minutes": 45,
+        "service_type": "Hair Coloring",
+        "stylist_preference": "",
+        "additional_request": "Use organic products",
+        "receive_sms_reminder": false,
+        "receive_email_reminder": true,
+        "status": "booked",
+        "payment_status": "pending",
+        "created_at": "2023-10-18T17:00:00-07:00"
+    },
+    {
+        "hair_dresser": {
+            "first_name": "Emily",
+            "last_name": "Garcia"
+        },
+        "customer": {
+            "first_name": "Robert",
+            "last_name": "Thomas"
+        },
+        "start_date_time": "2023-11-19T17:00:00-07:00",
+        "duration_in_minutes": 30,
+        "service_type": "Shampoo",
+        "stylist_preference": "",
+        "additional_request": "",
+        "receive_sms_reminder": true,
+        "receive_email_reminder": true,
+        "status": "booked",
+        "payment_status": "pending",
+        "created_at": "2023-10-19T18:00:00-07:00"
+    },
+    {
+        "hair_dresser": {
+            "first_name": "Noah",
+            "last_name": "Brown"
+        },
+        "customer": {
+            "first_name": "Jessica",
+            "last_name": "Martinez"
+        },
+        "start_date_time": "2023-11-20T18:00:00-07:00",
+        "duration_in_minutes": 90,
+        "service_type": "Haircut and Styling",
+        "stylist_preference": "Noah Brown",
+        "additional_request": "",
+        "receive_sms_reminder": false,
+        "receive_email_reminder": false,
+        "status": "booked",
+        "payment_status": "pending",
+        "created_at": "2023-10-20T19:00:00-07:00"
+    }
+]

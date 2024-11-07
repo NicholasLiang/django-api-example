@@ -1,0 +1,102 @@
+[
+    {
+        "first_name": "John",
+        "last_name": "Doe",
+        "phone_number": "416-555-1234",
+        "email": "john.doe@example.com",
+        "address": "123 Maple Street, Toronto, ON",
+        "date_of_birth": "1985-01-15",
+        "gender": "Male",
+        "notes": "Regular customer"
+    },
+    {
+        "first_name": "Jane",
+        "last_name": "Smith",
+        "phone_number": "604-555-5678",
+        "email": "jane.smith@example.com",
+        "address": "456 Oak Avenue, Vancouver, BC",
+        "date_of_birth": "1990-02-20",
+        "gender": "Female",
+        "notes": "Prefers email contact"
+    },
+    {
+        "first_name": "Michael",
+        "last_name": "Johnson",
+        "phone_number": "403-555-7890",
+        "email": "michael.johnson@example.com",
+        "address": "789 Pine Road, Calgary, AB",
+        "date_of_birth": "1978-03-25",
+        "gender": "Male",
+        "notes": "VIP customer"
+    },
+    {
+        "first_name": "Emily",
+        "last_name": "Davis",
+        "phone_number": "613-555-2345",
+        "email": "emily.davis@example.com",
+        "address": "101 Birch Lane, Ottawa, ON",
+        "date_of_birth": "1982-04-30",
+        "gender": "Female",
+        "notes": "Frequent buyer"
+    },
+    {
+        "first_name": "David",
+        "last_name": "Wilson",
+        "phone_number": "780-555-3456",
+        "email": "david.wilson@example.com",
+        "address": "202 Cedar Street, Edmonton, AB",
+        "date_of_birth": "1975-05-10",
+        "gender": "Male",
+        "notes": "Loyal customer"
+    },
+    {
+        "first_name": "Sarah",
+        "last_name": "Brown",
+        "phone_number": "514-555-4567",
+        "email": "sarah.brown@example.com",
+        "address": "303 Spruce Avenue, Montreal, QC",
+        "date_of_birth": "1988-06-15",
+        "gender": "Female",
+        "notes": "Prefers phone contact"
+    },
+    {
+        "first_name": "James",
+        "last_name": "Taylor",
+        "phone_number": "902-555-5678",
+        "email": "james.taylor@example.com",
+        "address": "404 Fir Road, Halifax, NS",
+        "date_of_birth": "1980-07-20",
+        "gender": "Male",
+        "notes": "Occasional buyer"
+    },
+    {
+        "first_name": "Laura",
+        "last_name": "Anderson",
+        "phone_number": "306-555-6789",
+        "email": "laura.anderson@example.com",
+        "address": "505 Elm Street, Regina, SK",
+        "date_of_birth": "1992-08-25",
+        "gender": "Female",
+        "notes": "New customer"
+    },
+    {
+        "first_name": "Robert",
+        "last_name": "Thomas",
+        "phone_number": "807-555-7890",
+        "email": "robert.thomas@example.com",
+        "address": "606 Willow Lane, Thunder Bay, ON",
+        "date_of_birth": "1970-09-30",
+        "gender": "Male",
+        "notes": "Prefers in-person contact"
+    },
+    {
+        "first_name": "Jessica",
+        "last_name": "Martinez",
+        "phone_number": "867-555-8901",
+        "email": "jessica.martinez@example.com",
+        "address": "707 Poplar Road, Whitehorse, YT",
+        "date_of_birth": "1995-10-05",
+        "gender": "Female",
+        "notes": "Frequent online shopper"
+    }
+]
