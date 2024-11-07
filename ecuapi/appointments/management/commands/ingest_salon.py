@@ -19,6 +19,7 @@ class Command(BaseCommand):
                     defaults={
                         'phone_number': stylist_data.get('phone_number', ''),
                         'email': stylist_data.get('email', ''),
+                        'image': stylist_data.get('image', ''),
                         'position': stylist_data.get('position', ''),
                         'specialization': stylist_data.get('specialization', ''),
                         'years_of_experience': stylist_data.get('years_of_experience', 0),

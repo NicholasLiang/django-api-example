@@ -21,6 +21,7 @@ class Command(BaseCommand):
                 'last_name': stylist.last_name,
                 'phone_number': stylist.phone_number,
                 'email': stylist.email,
+                'image': stylist.image,
                 'position': stylist.position,
                 'specialization': stylist.specialization,
                 'years_of_experience': stylist.years_of_experience,
