@@ -16,6 +16,7 @@ class StylistSchema(Schema):
     last_name: str
     phone_number: str
     email: str
+    image: str
     position: str
     specialization: str
     years_of_experience: int

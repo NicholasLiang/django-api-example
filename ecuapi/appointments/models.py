@@ -5,6 +5,7 @@ class Stylist(models.Model):
     last_name = models.CharField(max_length=100)
     phone_number = models.CharField(max_length=15, blank=True)
     email = models.EmailField(blank=True)
+    image = models.CharField(max_length=255, blank=True)
     position = models.CharField(max_length=100, blank=True)
     specialization = models.CharField(max_length=100, blank=True)
     years_of_experience = models.IntegerField(default=0)
